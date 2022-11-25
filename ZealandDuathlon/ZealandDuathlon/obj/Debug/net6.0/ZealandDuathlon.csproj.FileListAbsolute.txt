@@ -1,0 +1,12 @@
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\bin\Debug\net6.0\ZealandDuathlon.deps.json
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\bin\Debug\net6.0\ZealandDuathlon.dll
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\bin\Debug\net6.0\ZealandDuathlon.pdb
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.AssemblyInfo.cs
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.dll
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\refint\ZealandDuathlon.dll
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ZealandDuathlon.pdb
+C:\Users\andre\Desktop\Prøveeksamen\ZealandDuathlon\ZealandDuathlon\obj\Debug\net6.0\ref\ZealandDuathlon.dll

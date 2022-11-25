@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <title>ANBR - Prøveeksamen</title>
+  </head>
+  <body id="app">
+    <!--GetAll-->
+    <div>
+      <button @click="getAll()">Get All</button>
+      <button @click="clear()">Clear</button>
+    </div>
+    <!--GetById/Bib-->
+    <div>
+      <input type="number" v-model="searchId" placeholder="Bib" />
+      <button @click="getById(searchId)">GetByBib</button>
+    </div>
+    <!--DeleteDuathlete-->
+    <div>
+      <input type="number" v-model="idToBeDeleted" placeholder="Bib" />
+      <button @click="deleteDuathlete">Delete</button>
+    </div>
+    <!--Add Duathlete-->
+    <div>
+      <input type="text" v-model="newDuathlete.name" placeholder="Name" />
+      <input type="number" v-model="age" placeholder="Age" />
+      <input type="number" v-model="newDuathlete.bike" placeholder="Bike" />
+      <input type="number" v-model="newDuathlete.run" placeholder="Run" />
+      <button @click="addDuathlete()">Add duathlete</button>
+    </div>
+    <!--Get Filtered-->
+    <div>
+      <input
+        type="number"
+        min="1"
+        max="4"
+        value="1"
+        v-model="filterAgeValue"/><label>Aldersgruppe</label>
+      <button @click="filterByAgeGroup()">Filtrer</button>
+    </div>
+    <!--Sort By Total-->
+    <div v-if="duathletes.length > 1">
+      <button @click="sortByTotalAscending()">Total Ascending</button>
+      <button @click="sortByTotalDescending()">Total Descending</button>
+    </div>
+
+    <div>
+      <ul>
+        <li v-for="duathlete in duathletes">{{duathlete}}</li>
+      </ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
